@@ -1,3 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
-\PYG{n}{ExecutorService}\PYG{+w}{ }\PYG{n}{executor}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Executors}\PYG{p}{.}\PYG{n+na}{newFixedThreadPool}\PYG{p}{(}\PYG{n}{cores}\PYG{p}{);}
-\end{MintedVerbatim}
