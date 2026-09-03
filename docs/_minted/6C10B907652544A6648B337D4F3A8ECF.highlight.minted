@@ -1,0 +1,14 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Simulates an emergency room from a provided file}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{public}\PYG{+w}{ }\PYG{n+nf}{Simulation}\PYG{p}{(}\PYG{n}{String}\PYG{+w}{ }\PYG{n}{file}\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{throws}\PYG{+w}{ }\PYG{n}{FileNotFoundException}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{c+c1}{// Initializes EmergencyRoom}
+\PYG{+w}{    }\PYG{k}{this}\PYG{p}{.}\PYG{n+na}{er}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{EmergencyRoom}\PYG{p}{();}
+\PYG{+w}{    }\PYG{c+c1}{// Loads data from file}
+\PYG{+w}{    }\PYG{n}{File}\PYG{+w}{ }\PYG{n}{inputFile}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k}{new}\PYG{+w}{ }\PYG{n}{File}\PYG{p}{(}\PYG{n}{file}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n}{er}\PYG{p}{.}\PYG{n+na}{readFile}\PYG{p}{(}\PYG{k}{new}\PYG{+w}{ }\PYG{n}{Scanner}\PYG{p}{(}\PYG{n}{inputFile}\PYG{p}{));}
+\PYG{+w}{    }\PYG{c+c1}{// Initializes the GUI}
+\PYG{+w}{    }\PYG{n}{EmergencyRoomGUI}\PYG{p}{.}\PYG{n+na}{initialize}\PYG{p}{(}\PYG{n}{er}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}
