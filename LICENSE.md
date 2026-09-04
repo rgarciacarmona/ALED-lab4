@@ -1,7 +1,9 @@
 # Licencia del código
 
-Se aplica al código fuente (`src/`). Los enunciados se rigen por
-[`LICENSE-DOCS.md`](LICENSE-DOCS.md).
+Se aplica al código fuente (`src/`), a los datos de `er/` y a las
+secuencias sintéticas de `cromosomes/`. Los enunciados se rigen por
+[`LICENSE-DOCS.md`](LICENSE-DOCS.md). Las secuencias tomadas de GRCh38
+no están cubiertas por ninguna de las dos.
 
 MIT License
 
