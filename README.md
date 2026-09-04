@@ -1,4 +1,4 @@
-# AED - Práctica 4: Concurrencia con hilos
+# ALED - Práctica 4: Concurrencia con hilos
 
 Código base para la práctica 4 de Algoritmos y Estructuras de Datos
 (Grado en Ingeniería Biomédica, UPM).
